@@ -4,6 +4,7 @@ import Header from "./Header";
 import SlideShow from "./SlideShow";
 import ProgramsButton from "./ProgramsButton";
 import BottomTabNavigation from "./BottomTabNavigation";
+import PlayButton from "./PlayButton";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <SlideShow />
         <ProgramsButton />
         <BottomTabNavigation />
+        <PlayButton />
       </View>
     </>
   );

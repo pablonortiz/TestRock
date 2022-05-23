@@ -1,13 +1,21 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, TouchableOpacity, Text, StyleSheet } from "react-native";
 
 const BottomTabNavigation = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>H</Text>
-      <Text style={styles.text}>M</Text>
-      <Text style={styles.text}>C</Text>
-      <Text style={styles.text}>A</Text>
+      <TouchableOpacity>
+        <Text style={styles.text}>H</Text>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <Text style={styles.text}>M</Text>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <Text style={styles.text}>C</Text>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <Text style={styles.text}>A</Text>
+      </TouchableOpacity>
     </View>
   );
 };
